@@ -1,0 +1,1 @@
+I hope to achieve a greater understanding of web development and the supporting frameworks. Ultimately, this is to improve my knowledge and improve my viability in the job market. Thanks, you can do this :)
