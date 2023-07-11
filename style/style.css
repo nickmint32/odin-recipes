@@ -1,32 +1,62 @@
 * {
 	font-family: 'Brush Script MT', cursive;
 }
+img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
 
 h1,
 h2 {
-	color: white;
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
 }
 
 h1 {
-	background-color: green;
+	background-color: gold;
 }
 
 h2 {
-	background-color: black;
+	background-color: silver;
 } 
 
 body{
-	background-color: blue;
+	background-color: black;
+}
+
+ol,
+ul {
+	text-align: left;
+	margin: 10px;
 }
 
 li {
-	background-color: yellow;
-	color: black;
+	color: white;
 	font-size: 22px;
 	font-weight: bold;
-	text-align: center;
 }
 
+.ingredients,
+.steps {
+	display: inline;
+	width: 45%;
+	height: 50%;
+	background-color: tan;
+	border-style: dotted;
+	border-width: 10px;
+	border-color: gold;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	padding: 25px;
+	text-align: left;
+	
+}
+
+.ingredients {
+	float: left;
+}
+.steps {
+	float: right;
+}
